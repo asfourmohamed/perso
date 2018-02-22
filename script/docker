@@ -1,0 +1,2 @@
+docker run --name app_dump_log1  -p 2020:2020 -p 2121:2121 -d --link postgresql:postgresql app_dump_log1
+
